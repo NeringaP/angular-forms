@@ -26,7 +26,7 @@ export class ReactiveComponent implements OnInit{
       // (value) => console.log(value)
     // )
     this.signupForm.statusChanges.subscribe(
-      (staus) => console.log(staus)
+      // (status) => console.log(status)
     );
 
     this.signupForm.setValue({

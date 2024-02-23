@@ -6,12 +6,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TdTaskComponent } from './td-task/td-task.component';
 import { ReactiveComponent } from './reactive/reactive.component';
+import { ReactiveTaskComponent } from './reactive/reactive-task/reactive-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TdTaskComponent,
-    ReactiveComponent
+    ReactiveComponent,
+    ReactiveTaskComponent
   ],
   imports: [
     BrowserModule,
